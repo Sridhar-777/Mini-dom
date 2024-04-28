@@ -1,0 +1,16 @@
+<button onclick="colour()">Changecolour</button>
+
+
+
+
+<script>
+    var colour=document.getElementById("colour")
+    
+
+
+    function colour(){
+        colour.style.backgroundColour=("red")
+
+        
+    }
+</script>
