@@ -1,0 +1,31 @@
+<h1 id="result">Name</h1>
+<button onclick="btn(event)">john</button>
+<button onclick="btn(event)">praveen</button>
+<button onclick="btn(event)">Karthick</button>
+
+
+
+<script>
+    var h1=document.getElementById("result")
+    function  btn(event)
+    {
+        h1.textContent=event.target.textContent
+
+    }
+
+    function btn (event)
+
+    {
+        h1.textContent=event.target.textContent
+
+    }
+
+    function btn (event)
+    {
+        h1.textContent=event.target.textContent
+
+    }
+
+
+
+</script>
