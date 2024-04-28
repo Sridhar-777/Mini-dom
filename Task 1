@@ -1,0 +1,26 @@
+<input id="tag" onkeyup="check()"></input>
+<h1 id="result"></h1>
+
+
+
+
+<script>
+    var tag=document.getElementById("tag")
+    var result=document.getElementById("result")
+
+function check(){
+    result.textContent=tag.value
+    
+
+
+}
+</script>
+
+
+
+
+
+
+
+
+
